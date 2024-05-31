@@ -1,7 +1,7 @@
 import React from "react";
-import { structureOfFolder } from "../description/data";
+import { structureOfFolder } from "../../description/data";
 const FolderStructureContainer = () => {
-  return { name: "yash", structureOfFolder };
+  return { structureOfFolder };
 };
 
 export default FolderStructureContainer;

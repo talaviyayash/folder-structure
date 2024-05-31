@@ -1,179 +1,69 @@
-export const structureOfFolder = [
-  {
-    id: 1,
-    name: "folder1",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [
-          {
-            id: 1,
-            name: "yash",
-            subfolder: [],
-          },
-          {
-            id: 2,
-            name: "demo",
-            subfolder: [],
-          },
-          {
-            id: 3,
-            name: "temp",
-            subfolder: [],
-          },
-        ],
-        subFile: [
-          {
-            id: 1,
-            name: "click",
-          },
-          {
-            id: 2,
-            name: "demo",
-          },
-          {
-            id: 3,
-            name: "temp",
-          },
-        ],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 2,
-    name: "folder2",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "folder3",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 4,
-    name: "folder4",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 5,
-    name: "folder5",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 6,
-    name: "folder6",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-  {
-    id: 7,
-    name: "folder7",
-    subfolder: [
-      {
-        id: 1,
-        name: "yash",
-        subfolder: [],
-      },
-      {
-        id: 2,
-        name: "demo",
-        subfolder: [],
-      },
-      {
-        id: 3,
-        name: "temp",
-        subfolder: [],
-      },
-    ],
-  },
-];
+export const structureOfFolder = {
+  folder: [
+    {
+      name: "root",
+      subfolder: [
+        {
+          name: "dev",
+          subfolder: [
+            {
+              name: "bin",
+            },
+            {
+              name: "program",
+            },
+            {
+              name: "about",
+            },
+            {
+              name: "program files",
+            },
+          ],
+        },
+        {
+          name: "boot",
+          subFile: [
+            {
+              name: "boot graber",
+            },
+            {
+              name: "boot loader",
+            },
+          ],
+        },
+        {
+          name: "utils",
+          subfolder: [
+            {
+              name: "yash",
+              subfolder: [
+                {
+                  name: "chrome",
+                },
+              ],
+              subFile: [
+                {
+                  name: "chrome.exe",
+                },
+                {
+                  name: "skype.exe",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  //   file: [
+  //     {
+  //       name: "bootloader",
+  //     },
+  //     {
+  //       name: "react",
+  //     },
+  //     {
+  //       name: "temp",
+  //     },
+  //   ],
+};
